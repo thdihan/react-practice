@@ -8,7 +8,6 @@ export default function Todo() {
         const updatedWarning = inputValue.includes(".js")
             ? "You need JavaScript skill to complete the task. Do you have it?"
             : null;
-
         setTodo(inputValue);
         setWarning(updatedWarning);
     };
