@@ -1,9 +1,12 @@
-function App() {
-    return (
-        <>
-            <p>Hello World</p>
-        </>
-    );
-}
+import React from "react";
+import Counter from "./components/Counter";
 
-export default App;
+export default class App extends React.Component {
+    render() {
+        return (
+            <div className="app">
+                <Counter />
+            </div>
+        );
+    }
+}
