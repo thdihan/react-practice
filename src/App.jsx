@@ -1,9 +1,8 @@
-function App() {
+import GetPost from "./components/GetPost2";
+export default function App() {
     return (
-        <>
-            <p>Hello World</p>
-        </>
+        <div className="app">
+            <GetPost />
+        </div>
     );
 }
-
-export default App;
